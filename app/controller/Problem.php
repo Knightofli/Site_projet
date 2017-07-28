@@ -13,14 +13,14 @@
 class Problem 
 {
     /**
-     * PAGE: Index
+     * PAGE : Index of folder problem
      * This method handles the error page that will be shown when a page is not found
      */
     public function index()
     {
         // load views
         require VIEW . 'templates/Header.php';
-        require VIEW . 'problem/Index.php';
+        require VIEW . 'problem/index.php';
         require VIEW . 'templates/Footer.php';
     }
 }

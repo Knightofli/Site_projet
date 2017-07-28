@@ -1,4 +1,4 @@
-
+<footer>
     <!-- backlink to repo on GitHub, and affiliate link to Rackspace if you want to support the project -->
     <div class="footer">
         Find <a href="https://github.com/panique/mini">MINI on GitHub</a>.
@@ -16,5 +16,5 @@
 
     <!-- our JavaScript -->
     <script src="<?php echo URL; ?>js/application.js"></script>
-</body>
+</footer>
 </html>

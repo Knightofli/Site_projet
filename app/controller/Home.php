@@ -11,14 +11,14 @@
 class Home 
 {
     /**
-     * PAGE: Index
-     * This method handles what happens when you move to http://yourproject/home/index (which is the default page btw)
+     * PAGE: Index of the folder home
+     * This method handles what happens when you move to 'home/index' (which is the default page btw)
      */
     public function index()
     {
         // load views
         require VIEW . 'templates/Header.php';
-        require VIEW . 'home/Index.php';
+        require VIEW . 'home/index.php';
         require VIEW . 'templates/Footer.php';
     }
 

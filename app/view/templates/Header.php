@@ -13,7 +13,7 @@
     <!-- CSS -->
     <link href="<?php echo URL; ?>css/style.css" rel="stylesheet">
 </head>
-<body>
+<header>
     <!-- logo -->
     <div class="logo">
         MINI
@@ -26,3 +26,4 @@
         <a href="<?php echo URL; ?>home/exampletwo">subpage 2</a>
         <a href="<?php echo URL; ?>songs">songs</a>
     </div>
+</header>

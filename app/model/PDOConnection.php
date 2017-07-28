@@ -1,6 +1,6 @@
 <?php 
 
-require CONFIG.'Config.php'; 
+require CONFIG.'PDOConfig.php'; 
 
 class PDOConnection implements PDOConfig
 {

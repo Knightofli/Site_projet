@@ -34,7 +34,7 @@ class Dispatcher
             // here we did check for controller: does such a controller exist ?
 
             // if so, then load this file and create this controller
-            // example: if controller would be "car", then this line would translate into: $this->car = new car();
+            // example: if controller would be "Forum", then this line would translate into: $this->Forum = new Forum();
             require CONTROLLER.$this->_url['controller']. '.php';
             $this->_url['controller'] = new $this->_url['controller']();
 
