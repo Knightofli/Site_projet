@@ -1,5 +1,10 @@
 <?php
 
+require MODEL. 'PDOConnection.php';
+
+class Forum_model 
+{
+
 //Cette requête permet d'obtenir tout sur le forum
 $query=$db->prepare('SELECT 
 cat_id, 

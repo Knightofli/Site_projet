@@ -13,8 +13,8 @@ require 'config/Config.php';
 //require CONFIG.'helper.php';
 
 // load application class
-require CORE.'Dispatcher.php';
+require CORE.'Application.php';
 
 // start the application
-$dispatcher = new Dispatcher();
+$application = new Application();
 

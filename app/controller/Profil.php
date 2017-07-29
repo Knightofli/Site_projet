@@ -22,5 +22,14 @@ class Profil
         require VIEW . 'profil/index.php';
         require VIEW . 'templates/Footer.php';
     }
+    
+    public function edit()
+    {
+        // load views
+        require VIEW . 'templates/Header.php';
+        require VIEW . 'profil/edit.php';
+        require VIEW . 'templates/Footer.php';
+    }
 
 }
+
